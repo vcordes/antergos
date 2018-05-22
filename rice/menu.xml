@@ -3,10 +3,10 @@
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
 <menu id="apps-term-menu" label="Terminals">
-  <item label="Light">
+  <item label="Dark">
 	  <action name="Execute"><command>termite -c ~/.config/termite/config</command></action>
   </item>
-  <item label="Dark">
+  <item label="Light">
 	  <action name="Execute"><command>termite -c ~/.config/termite/config-alt</command></action>
   </item>
 </menu>
