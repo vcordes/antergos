@@ -1,0 +1,21 @@
+:host {
+    display: block;
+}
+
+clock {
+    margin-top: 5vh;
+    display: inline-block;
+}
+
+#trigger {
+    font-family: "Lato", "Noto Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 32px;
+
+    margin-top: calc(83.5vh - 300px - 49px);
+
+    text-shadow: 1px 1px black;
+
+    text-shadow: 1px 1px black;
+}
