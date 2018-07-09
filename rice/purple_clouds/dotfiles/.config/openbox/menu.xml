@@ -27,8 +27,17 @@
 </menu>
 
 <menu id="apps-office-menu" label="Office">
+  <item label="Anki">
+	  <action name="Execute"><command>anki</command></action>
+  </item>
   <item label="Evince">
 	  <action name="Execute"><command>evince</command></action>
+  </item>
+  <item label="Spotify">
+	  <action name="Execute"><command>spotify</command></action>
+  </item>
+  <item label="VirtualBox">
+	  <action name="Execute"><command>virtualbox</command></action>
   </item>
 </menu>
 
