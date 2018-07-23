@@ -1,0 +1,26 @@
+Additional stuff done for t450s setup
+
+Audio:
+    vim /etc/modprobe.d/thinkpad-t450s.conf
+        options snd_hda_intel index=1,0
+
+    Map special keys:
+        install xbindkeys
+        .xbindkeysrc should be included in parent directory
+        openbox autoconfig should also be modified to load xbindkeys
+
+Conky:
+    file to edit is conky config
+        voffset of icons
+        copy of config included in parent directory
+
+Resolution
+    if interested, xrandr can be used to change resolution
+    xrandr --output eDPI --mode 1920x1080 OR 1600x900
+
+Misc
+    Downloaded auto-pairs and vim wiki (pathogen)
+    Spotify, VirtualBox, Anki
+    Edited openbox menu to include those three programs
+    Added bashrc for wattage display, youtube-dl
+    Altered openbox key maps to my liking, allowing for two terminal one main display layout
